@@ -1,0 +1,2 @@
+DROP SEQUENCE IF EXISTS users_seq;
+CREATE SEQUENCE users_seq START 1;

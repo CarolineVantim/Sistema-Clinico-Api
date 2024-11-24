@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      import-check:
+        enabled: false
+
+  banner:
+    enabled: true
+
+  profiles:
+    active: docker
+
+springdoc:
+  api-docs:
+    path: /api-docs
